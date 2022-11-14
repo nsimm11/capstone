@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------*\
+|                                                                      |
+|    File exported from Salome Platform using SalomeToFoamExporter     |
+|    Keep up to date: https://github.com/nicolasedh/salomeToOpenFOAM   |
+|                                                                      |
+\*--------------------------------------------------------------------*/
+FoamFile
+{
+	version		2.0;
+	format		ascii;
+	class		polyBoundaryMesh;
+	location	"constant/polyMesh";
+	object		boundary;
+}
+
+3
+(
+	outlet
+	{
+	type		wall;
+	nFaces		720;
+	startFace	833877;
+	}
+	inlet
+	{
+	type		wall;
+	nFaces		17593;
+	startFace	834597;
+	}
+	walls
+	{
+	type		wall;
+	nFaces		41585;
+	startFace	852190;
+	}
+)
