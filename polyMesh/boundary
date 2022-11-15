@@ -18,19 +18,19 @@ FoamFile
 	outlet
 	{
 	type		wall;
-	nFaces		720;
-	startFace	833877;
+	nFaces		453;
+	startFace	218544;
 	}
 	inlet
 	{
 	type		wall;
-	nFaces		17593;
-	startFace	834597;
+	nFaces		9174;
+	startFace	218997;
 	}
 	walls
 	{
 	type		wall;
-	nFaces		41585;
-	startFace	852190;
+	nFaces		31017;
+	startFace	228171;
 	}
 )
